@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    background: black;
+    color: #B8BCCC;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
+}
+
+#code-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#code-info>p {
+    font-size: 2rem;
+}
+
+#search-bar {
+    width: 100%;
+    padding: 15px 8px;
+    border: 2px solid #B8BCCC;
+    border-radius: 5px;
+    outline: none;
+}
+
+#result {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:40px;
+}
+.not-found{
+    font-size: 2rem;
+}

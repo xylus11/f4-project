@@ -1,0 +1,32 @@
+#main-container{
+    width:100vw;
+    height: 100vh;
+    background: #575A85;
+}
+#input-field{
+    width:100%;
+    padding: 40px;
+    display: flex;
+    flex-direction:column;
+    gap:20px;
+    color:#B8BCCC;
+}
+#input-head{
+    font-size: 3rem;
+    font-weight: 600;
+}
+#input-box{
+    box-sizing: border-box;
+    padding: 5px 15px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+#entry-btn{
+    width: fit-content;
+    padding: 8px 30px;
+    background: black;
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+}

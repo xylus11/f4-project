@@ -1,0 +1,27 @@
+.Card{
+    width:450px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    background: #555884;
+    color:#B8BCCC;
+    padding: 30px;
+    border-radius: 8px;
+    font-size:15px;
+}
+.card-prop{
+    background: transparent;
+    max-height: 5.2rem;
+    overflow: hidden;
+}
+@media screen and (max-width:768px){
+    .card-prop{
+        max-height: fit-content;
+    }
+}
+@media screen and (max-width:1220px) {
+    .Card{
+        width: 100%;
+    }
+}
